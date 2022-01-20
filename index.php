@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- https://www.youtube.com/watch?v=eFxDili9k3o -- 08:15/22:53 -->
+    <!-- 
+        BASE DE DADOS
+
+create table usuarios(id integer not null auto_increment
+					 ,nome varchar(30) not null
+                     ,telefone varchar(30) not null
+                     ,email varchar(40) not null
+                     ,senha varchar(32) not null
+                     ,primary key(id));
+use login_project;
+create database login_project default character set utf8 default COLLATE utf8_general_ci;
+    -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

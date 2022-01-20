@@ -10,12 +10,15 @@
 <body>
     <div id="corpo-form">
     <h1> <strong> ENTRAR </strong> </h1>
-    <form action="process.php" method="POST">
-        <input type="email" placeholder="Usuário">
-        <input type="password" placeholder="Senha">
+    <form method="POST">
+        <input type="email" name="email" placeholder="Usuário" maxlength="30">
+        <input type="password" name="senha" placeholder="Senha">
         <input type="submit" value="Acessar">
         <a href="cadastrar.php">Não tem acesso ainda? <strong>Cadastre-se!</strong> </a>
     </form>
     </div>
+    <?php
+
+    ?>
 </body>
 </html>

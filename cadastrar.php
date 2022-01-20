@@ -10,14 +10,17 @@
 <body>
     <div id="corpo-form-cad">
     <h1> <strong> TELA DE CADASTRO </strong> </h1>
-    <form action="process.php" method="POST">
-        <input type="text" placeholder="Nome completo...">
-        <input type="text" placeholder="Telefone (xx)xxxxxxxxx">
-        <input type="email" placeholder="Usuário">
-        <input type="password" placeholder="Senha">
-        <input type="password" placeholder="Confirmar senha...">
+    <form method="POST">
+        <input type="text" name="nome" placeholder="Nome completo..." maxlength="30">
+        <input type="text" name="telefone" placeholder="Telefone (xx)xxxxxxxxx" maxlength="30">
+        <input type="email" name="email" placeholder="Usuário" maxlength="40">
+        <input type="password" name="senha" placeholder="Senha" maxlength="15">
+        <input type="password" name="confSenha" placeholder="Confirmar senha..." maxlength="15">
         <input type="submit" value="Cadastrar">
     </form>
     </div>
+    <?php 
+
+    ?>
 </body>
 </html>
